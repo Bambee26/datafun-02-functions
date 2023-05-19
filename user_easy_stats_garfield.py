@@ -9,7 +9,6 @@ Must be 3.10 or greater to get the correlation and linear regression.
 Uses only Python Standard Library modules.
 
 @ uses statistics module for descriptive stats
-@ uses turtle module for drawing a chart
 @ uses sys module for checking Python version
 
 """
@@ -20,7 +19,7 @@ import math
 from util_datafun_logger import setup_logger
 logger, logname = setup_logger(__file__)
 
-# Descriptive: Univariant  ata
+# Descriptive: Univariant data
 
 # describe relationships of dog and cats
 dogs = [2, 3, 10, 4, 2, 8, 1, 6, 5, 2, 7, 2]
@@ -32,21 +31,6 @@ if len(dogs) != len(cats):
     logger.error("ERROR: The related sets are not the same size.")
     logger.error(f"      {len(dogs)}!={len(cats)}")
     quit()
-
-# check the Python version before using the correlation function
-logger.warn("Correlation requires Python version 3.10 or greater.")
-logger.warn(f"Your version is {sys.version_info.major}.{sys.version_info.minor}")
-
-# if the Python version is too old, we can quit now
-if sys.version_info.minor < 10:
-    logger.error("Please update Python to 3.10 or greater")
-    logger.error("or use View / Command Palette / Python: Select Interpreter")
-    logger.error("to get a newer one.")
-    quit()
-
-# If we're still here, use the correlation function from the statistics module
-xx_corr = statistics.correlation(dogs, dogs)
-xy_corr = statistics.correlation(dogs, cats)
 
 # log the information 
 # zero decimal places because you can't have part of a dog or cat
