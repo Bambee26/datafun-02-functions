@@ -1,6 +1,6 @@
 '''
 Purpose: Create a class that inherits everything from NumericSeries and adds
-attributes and/or behavior specific to Weather. 
+attributes and/or behavior specific to dog walking. 
 
 If you don't need to add specialized attributes or behavior, 
 you can just use the original NumericSeries class directly. 
@@ -8,7 +8,7 @@ No subclassing required.
 
 We get all of our parent's attributes and methods for free (no coding required).
 
-Weather adds:
+Dog walking adds:
 
 - a location attribute
 
@@ -21,9 +21,9 @@ from numeric_series import NumericSeries
 from util_datafun_logger import setup_logger
 
 
-class NumericWeatherSeries(NumericSeries):
+class NumericDogWalkSeries(NumericSeries):
     """
-    A class representing a numeric series customized for weather data.
+    A class representing a numeric series customized for dog walking data.
 
     (Additional) Attributes:
        location (string): the location where the data was collected
@@ -60,7 +60,7 @@ class NumericWeatherSeries(NumericSeries):
         Returns:
             str: a string representation of the instantiated object
         """
-        str = f"NumericWeatherSeries with name={self.name}, units={self.units}, location={self.location}, and {len(self.data)} data points: {self.data}"
+        str = f"NumericDogWalkSeries with name={self.name}, units={self.units}, location={self.location}, and {len(self.data)} data points: {self.data}"
         return str
 
 
@@ -77,20 +77,20 @@ if __name__ == "__main__":
     # The constructor method is always the name of the class
     # pass in the information required by the __init__ method defined in the class
 
-    name1 = "Monday Temperatures"
-    units1 = "F"
-    data1 = [55.8, 63.4, 72.4, 78, 76.3]
-    loc = "Maryville MO"
+    name1 = "Dog #1 Walks"
+    units1 = "miles"
+    data1 = [2.8, 1.4, 2.4, 1.3, 0.8]
+    loc = "Neighborhood"
 
-    object1 = NumericWeatherSeries(name1, units1, data1, loc)
+    object1 = NumericDogWalkSeries(name1, units1, data1, loc)
 
   
-    name2 = "Tuesday Temperatures"
-    units2 = "F"
-    data2 = [66.2, 67.2, 55.8, 63.4, 72.4, 73.1, 76.3]
-    loc2 = "Maryville MO"
+    name2 = "Dog #2 walks"
+    units2 = "miles"
+    data2 = [1.2, 2.2, 3.0, 0.4, 2.4, 3.1, 1.3]
+    loc2 = "Park"
 
-    object2 = NumericWeatherSeries(name2, units2, data2, loc2)
+    object2 = NumericDogWalkSeries(name2, units2, data2, loc2)
 
     
     # Create another object 
@@ -99,12 +99,12 @@ if __name__ == "__main__":
     # list() converts the range object to a list
     # range() is a generator - it creates a sequence of numbers without storing them in memory
     # The arguments in range are from (inclusive) and to (exclusive)
-    data3 = list(range(66, 79))
-    name3 = "Wednesday Temperatures"
-    units3 = "F"
-    loc3 = "Maryville MO"
+    data3 = list(range(1, 4))
+    name3 = "Dog #3 Walks"
+    units3 = "miles"
+    loc3 = "Neighborhood and park"
 
-    object3 = NumericWeatherSeries(name3, units3, data3, loc3)
+    object3 = NumericDogWalkSeries(name3, units3, data3, loc3)
 
     # log the objects created
     logger.info(f"Created: {object1}")
@@ -125,10 +125,10 @@ if __name__ == "__main__":
 
     for object in object_list:
         logger.info(object)
-        logger.info(f"Count: {object.count()}")
-        logger.info(f"Sum: {object.sum()}")
-        logger.info(f"Mean: {object.mean()}")
-        logger.info(f"Median: {object.median()}")
+        logger.info(f"Count: {object.count():0.2f}")
+        logger.info(f"Sum: {object.sum():0.2f}")
+        logger.info(f"Mean: {object.mean():0.2f}")
+        logger.info(f"Median: {object.median():0.2f}")
         logger.info("------------------")
 
     # Read log file and print it to the terminal

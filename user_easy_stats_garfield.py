@@ -3,18 +3,8 @@
 Author: Bambee Garfield
 Purpose: Module 2 Task 4
 
-VS Code Menu / View / Command Palette / Python Interpretor
-Must be 3.10 or greater to get the correlation and linear regression.
-
-Uses only Python Standard Library modules.
-
-@ uses statistics module for descriptive stats
-@ uses sys module for checking Python version
-
 """
 import statistics 
-import sys
-import math
 
 from util_datafun_logger import setup_logger
 logger, logname = setup_logger(__file__)
@@ -74,7 +64,6 @@ logger.info(f"The largest number of dogs is {largest_dogs:.0f} and cats is {larg
 range_dogs = largest_dogs - smallest_dogs
 range_cats = largest_cats - smallest_cats
 logger.info(f"The range in the number of dogs is {range_dogs:.0f} and cats {range_cats:.0f}.")
-
 
 # Use built-in open() function to read log file and print it to the terminal
 with open(logname, 'r') as file_wrapper:
