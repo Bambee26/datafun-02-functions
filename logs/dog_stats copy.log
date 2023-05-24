@@ -1,0 +1,23 @@
+2023-05-24 14:23:40,809 =============================================================
+2023-05-24 14:23:40,809 =============================================================
+2023-05-24 14:23:40,809 Today is 2023-05-24 at 02:23 PM
+2023-05-24 14:23:40,841 This file is running on: nt Windows 10
+2023-05-24 14:23:40,841 The Python version is: 3.11.3
+2023-05-24 14:23:40,841 The active conda environment is:  None
+2023-05-24 14:23:40,841 The active pip environment is:    None
+2023-05-24 14:23:40,841 The active environment path is:   C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.1008.0_x64__qbz5n2kfra8p0
+2023-05-24 14:23:40,841 The current working directory is: C:\Users\bambe\Documents\44608_DataAnalyticsFundamentals\datafun-02-functions
+2023-05-24 14:23:40,841 This source file is in:           c:\Users\bambe\Documents\44608_DataAnalyticsFundamentals\datafun-02-functions\datafun-02-functions
+2023-05-24 14:23:40,841 =============================================================
+2023-05-24 14:23:40,841 =============================================================
+2023-05-24 14:23:48,755 Width = 12.0
+2023-05-24 14:23:48,755 Height = 6.0
+2023-05-24 14:23:48,755 Refills = 3
+2023-05-24 14:23:48,756 We need the bowl's radius to calculate it's volume. The radius is 6.0.
+2023-05-24 14:23:48,756 The volume of the bowl in inches cubed is 678.58".
+2023-05-24 14:23:48,756 The bowl's volume in gallons is 2.94.
+2023-05-24 14:23:48,756 The bowl's volume in ounces is 376.32.
+2023-05-24 14:23:48,756 You refill the bowl 3 time(s) per day.
+2023-05-24 14:23:48,756 Your pet drinks 1128.96 ounces of water per day.
+2023-05-24 14:23:48,756 That's at least 3 jugs of milk.
+2023-05-24 14:23:48,756 Script complete. See log file for details.

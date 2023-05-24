@@ -1,0 +1,20 @@
+2023-05-24 14:24:48,691 =============================================================
+2023-05-24 14:24:48,691 =============================================================
+2023-05-24 14:24:48,691 Today is 2023-05-24 at 02:24 PM
+2023-05-24 14:24:48,734 This file is running on: nt Windows 10
+2023-05-24 14:24:48,735 The Python version is: 3.11.3
+2023-05-24 14:24:48,735 The active conda environment is:  None
+2023-05-24 14:24:48,735 The active pip environment is:    None
+2023-05-24 14:24:48,735 The active environment path is:   C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.1008.0_x64__qbz5n2kfra8p0
+2023-05-24 14:24:48,735 The current working directory is: C:\Users\bambe\Documents\44608_DataAnalyticsFundamentals\datafun-02-functions
+2023-05-24 14:24:48,735 This source file is in:           c:\Users\bambe\Documents\44608_DataAnalyticsFundamentals\datafun-02-functions\datafun-02-functions
+2023-05-24 14:24:48,735 =============================================================
+2023-05-24 14:24:48,735 =============================================================
+2023-05-24 14:24:48,735 The mean of dogs is 4 and cats is 4.
+2023-05-24 14:24:48,735 The median of dogs is 4 and cats is 2.
+2023-05-24 14:24:48,740 The mode of dogs is 2 and cats is 2.
+2023-05-24 14:24:48,740 The variance of dogs is 8 and cats is 11.
+2023-05-24 14:24:48,740 The standard deviation of dogs is 3 and cats is 3.
+2023-05-24 14:24:48,740 The smallest number of dogs is 1 and cats is 1.
+2023-05-24 14:24:48,740 The largest number of dogs is 10 and cats is 12.
+2023-05-24 14:24:48,740 The range in the number of dogs is 9 and cats 11.
