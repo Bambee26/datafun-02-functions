@@ -1,22 +1,15 @@
-# datafun-02-functions
+# datafun-05-data-at-rest
+# Author: Bambee Garfield
+# Class - 44-608 Data Analytics Fundamentals
 
-> Practice with built-in functions, creating functions, creating methods (functions in a class), and employing statistical functions
+Data At Rest
+This module deals with data at rest. Data at rest may be kept in:
 
-## Prerequisite
+files,
+relational databases (e.g., SQLite, SQL Server, Oracle), 
+NoSQL datastores (e.g., MongoDB)
+Graph databases (e.g., Neo4J)
+and more. 
+We'll look at how to read and write from files and relational databases.
 
-1. Complete the steps at [datafun-01-getting-started](https://github.com/denisecase/datafun-01-getting-started).
-1. Get author examples as described at [datafun-01-textbook](https://github.com/denisecase/datafun-01-textbook).
-
-See those projects for additional help with tasks below. 
-
-## Task 1 - Fork this Repo
-
-Fork this repo into your GitHub account.
-
-## Task 2 - Clone Your Repo 
-
-Clone your new repo down to your machine.
-
-## Task 3 - Open the Project Locally
-
-Open the project in VS Code. 
+Data at rest is only part of the story. In analytics, there is also data in motion. Data in motion is unbounded - infinite - and is covered in our program course on Streaming Data.
